@@ -1,0 +1,191 @@
+
+
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    color: aliceblue;
+    height:100vh;
+}
+.ppl{
+    width: 100%;
+    height:100vh;
+    background-image:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.1)),url("ppl5.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px,0px;
+}
+.logo{
+    position: absolute;
+    width:30%;
+    margin-top: -1%;
+}
+.divbar li{
+    float: right;
+    font-size: large;
+    border-color: black;
+    color:rgba(250, 250, 250, 0.3);
+    backdrop-filter: blur(30px);
+    height: 80px;
+    width: 150px;
+    text-align: center;
+    padding: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.divbar ul{
+    list-style-type: none;
+    padding: 20px;
+    margin: 0px;
+    overflow: hidden;
+    margin-right: 30px;
+
+}
+.divbar a{
+    color: rgb(18, 18, 18);
+    text-decoration: none;
+    padding:25px;
+    text-align: center;
+    width:700px ;
+    
+}
+.divbar a:hover{
+    background-color:#FFFF00;
+    height:50px ;
+
+}
+.cyberpunk{
+    width: 100%;
+}
+.cyberpunk1{
+    width:550px ;
+    margin-left: 60%;
+    margin-top:-2.5%;
+}
+.para{
+    text-align: center;
+    font-size: 70px;
+    font-weight: 800px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(16, 16, 16);
+    margin-top: -30%;
+    width: 35%;
+    margin-left: 200px;
+}
+.switch{
+    margin-top: 30px;
+    margin-left: 150px;
+}
+.button1{
+    border: 3;
+    border-color: black;
+    outline: 100px;
+    background-image:url(ppl5.jpg) ;
+    color: black;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: 550;
+    font-family:Geneva, Verdana, sans-serif;
+    border-radius: 4px;
+    margin-left: 70px;
+    height: 60px;
+
+}
+.button1::after{
+content: "";
+z-index: -1;
+position: absolute;
+height: 100%;
+width: 100%;
+background-color: rgb(255, 0, 0);
+left:0;
+top: 0;
+border-radius: 10px;
+}
+.button1:hover::before{
+    content: ;
+    background: linear-gradient(45deg
+    white,orange,red,green,skyblue,purple,blue);
+    position: absolute;
+    background-size: 600%;
+    z-index: -1;
+    width: calc(100%+4px);
+    height: calc(100%+4px);
+    filter: blur(8px);
+    animation: glowing 20s linear infinite;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+    opacity: 1;
+}
+.social{
+    margin-left: 250px;
+    margin-top: 2%;
+}
+.icon{
+    width: 50px;
+    height:50px;
+    margin-left: 50px;
+
+}
+.next{
+    padding: 20px;
+    border-radius: 1px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+height: 100vh;
+background-image:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.1)),url("ppl5.jpg");
+
+}
+.head1{
+font-weight: bold;
+color: black;
+text-size-adjust:20px ;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+margin-left: 100px;
+margin-top:0px;
+font-size: 50px;
+
+
+
+}
+.para1{
+text-align: center;
+font-size: 30px;
+font-weight: 800px;
+font-family:sans-serif;
+color: rgb(16, 16, 16);
+width: 60%;
+margin-left: 900px;
+padding-top: 40px;
+
+}
+.input-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.input-group input {
+    height: 50px;
+    width: 400px;
+    padding-left: 100px;
+    border: 1px solid #20201f;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color:rgba(250, 250, 250, 0.3);
+    backdrop-filter:blur(30px);
+    font-family: sans-serif;
+    margin-top: 350px;
+}
